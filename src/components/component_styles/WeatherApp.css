@@ -1,0 +1,39 @@
+/* Default background */
+.weather-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Default background with transparency (0.9) */
+    text-align: center;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Cloudy background */
+  .weather-container.cloudy-bg {
+    background-image: url('../cloudy_image.jpeg'); 
+  }
+  
+  /* Sunny background */
+  .weather-container.sunny-bg {
+    background-image: url('../sunny_image.jpeg'); 
+  }
+  .weather-container.snowy-bg {
+    background-image: url('../snowy_image.jpeg'); 
+  }
+  .weather-container.rainy-bg {
+    background-image: url('../rainy_image.jpeg'); 
+  }
+  .weather-container.drizzle-bg {
+    background-image: url('../drizzle_image.jpeg'); 
+  }
+  
+  /* Form input field */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Additional styles for other elements as needed */
+  
